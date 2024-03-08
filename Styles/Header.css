@@ -1,0 +1,81 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 5px;
+  gap: 10px;
+  z-index: 500;
+
+}
+
+.header-middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: fit-content;
+}
+
+.header-side-element {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+a {
+  height: fit-content;
+}
+
+p {
+  margin: 0;
+}
+
+.Nik {
+  font-size: 2rem;
+  font-family: LeJour;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  line-height: 100%;
+  text-decoration-thickness: 1px;
+}
+
+.cinematographer {
+  font-family: BigillaBold;
+  letter-spacing: 5px;
+  line-height: 10px;
+  font-size: 1.5rem;
+  text-decoration-thickness: 1px;
+}
+
+@media (max-width: 600px) {
+
+  .header {
+    margin: 180px 5px 30px 5px;
+  }
+
+  .header-middle {
+    position: absolute;
+    top: 40px;
+    right: 20%;
+    left: 20%;
+  }
+
+  /* .Nik {
+    font-size: 3rem;
+  } */
+
+  /* .cinematographer {
+    font-size: 1.2rem;
+  } */
+
+  /* .header-side-element {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+  } */
+
+}
+
+@media (max-width: 400px) {
+  .Nik {
+    font-size: 2rem;
+  }
+}
