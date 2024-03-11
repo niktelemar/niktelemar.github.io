@@ -30,10 +30,10 @@ p {
 }
 
 .Nik {
-  font-size: 2rem;
-  font-family: LeJour;
+  font-size: 3rem;
+  font-family: BigillaBold;
   text-transform: uppercase;
-  letter-spacing: 0.5rem;
+  letter-spacing: 1rem;
   line-height: 100%;
   text-decoration-thickness: 1px;
 }
@@ -42,14 +42,14 @@ p {
   font-family: BigillaBold;
   letter-spacing: 5px;
   line-height: 10px;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   text-decoration-thickness: 1px;
 }
 
 @media (max-width: 600px) {
 
   .header {
-    margin: 180px 5px 30px 5px;
+    margin: 150px 5px 30px 5px;
   }
 
   .header-middle {
@@ -58,20 +58,6 @@ p {
     right: 20%;
     left: 20%;
   }
-
-  /* .Nik {
-    font-size: 3rem;
-  } */
-
-  /* .cinematographer {
-    font-size: 1.2rem;
-  } */
-
-  /* .header-side-element {
-    font-size: 1.2rem;
-    text-transform: uppercase;
-  } */
-
 }
 
 @media (max-width: 400px) {
