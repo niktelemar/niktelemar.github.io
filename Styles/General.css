@@ -39,18 +39,12 @@ body {
   src: url(Prata-Regular.ttf)
 }
 
-
+.project-title,
 .director,
 .project-type {
   font-size: 1.4rem;
 }
 
-.project-title {
-  font-family: BigillaBold;
-  font-size: 2rem;
-  letter-spacing: 0.1rem;
-  line-height: 30px;
-}
 
 .project-type {
   font-family: DMSans-ExtraLight, system-ui;
