@@ -38,10 +38,17 @@ document.querySelectorAll(".nav-link").forEach(n => n.
 
 
 const activePage = window.location.pathname;
-console.log(activePage);
-const navLink = document.querySelectorAll('nav ul a').forEach(link => {
-  if (link.href.includes(`${activePage}`)) {
-    link.classList.add('menu-active');
-  }
-})
-console.log(navLink);
+if (activePage !== '/') {
+  document.querySelectorAll('nav ul a').forEach(link => {
+    if (link.href.includes(`${activePage}`)) {
+      link.classList.add('menu-active');
+    }
+  })
+  // TO DO: FIX UGLY CODE BELOW > IT COULD BE SHORTER, THKS 
+} else {
+  document.querySelectorAll('nav ul a').forEach(link => {
+    if (link.href.includes('/index.html')) {
+      link.classList.add('menu-active');
+    }
+  })
+}
