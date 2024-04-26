@@ -29,13 +29,8 @@ body {
 }
 
 @font-face {
-  font-family: LeJour;
-  src: url(LeJourSerif.ttf)
-}
-
-@font-face {
-  font-family: Prata;
-  src: url(Prata-Regular.ttf)
+  font-family: DMSans-Italic;
+  src: url(DMSans-Italic.ttf);
 }
 
 .project-title,

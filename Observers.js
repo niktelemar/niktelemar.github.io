@@ -17,6 +17,9 @@ thumbnails.forEach(thumbnail => {
 })
 
 
+
+
+
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 
@@ -30,3 +33,15 @@ document.querySelectorAll(".nav-link").forEach(n => n.
     hamburger.classList.remove("active");
     navMenu.classList.remove("active");
   }))
+
+
+
+
+const activePage = window.location.pathname;
+console.log(activePage);
+const navLink = document.querySelectorAll('nav ul a').forEach(link => {
+  if (link.href.includes(`${activePage}`)) {
+    link.classList.add('menu-active');
+  }
+})
+console.log(navLink);

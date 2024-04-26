@@ -24,6 +24,13 @@ li {
 
 }
 
+a:is(:link, :active, :visited).menu-active {
+  font-family: DMSans-Italic;
+  text-decoration: underline;
+}
+
+
+
 .nik {
   font-size: 3rem;
   font-family: BigillaBold;
@@ -37,6 +44,10 @@ li {
   text-transform: lowercase;
   letter-spacing: 5px;
   font-size: 1.6rem;
+}
+
+.nik a:hover {
+  text-decoration: none;
 }
 
 .hamburger {
