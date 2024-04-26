@@ -24,7 +24,7 @@ li {
 
 }
 
-a:is(:link, :active, :visited).menu-active {
+a:is(:active, :visited).menu-active {
   font-family: DMSans-Italic;
   text-decoration: underline;
 }
