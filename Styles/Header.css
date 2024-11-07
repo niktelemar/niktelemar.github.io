@@ -31,14 +31,14 @@ a:is(:link, :active, :visited).menu-active {
 
 .nik {
   font-size: 3.1rem;
-  font-family: Mangro;
+  font-family: LibreCaslon;
   text-transform: uppercase;
   letter-spacing: 0.6rem;
   line-height: 150%;
 }
 
 .cinematographer {
-  font-family: Mangro;
+  font-family: LibreCaslon;
   text-transform: lowercase;
   letter-spacing: 0.5rem;
   font-size: 1.6rem;
