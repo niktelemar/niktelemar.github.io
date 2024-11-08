@@ -44,6 +44,10 @@ a:is(:link, :active, :visited).menu-active {
   font-size: 1.6rem;
 }
 
+.header-name {
+  max-width: 600px;
+}
+
 .header-middle:hover {
   text-decoration: none;
 }
@@ -79,6 +83,10 @@ a:is(:link, :active, :visited).menu-active {
 
   header {
     margin: 30px 20px 30px 20px;
+  }
+
+  .header-name {
+    max-width: 300px;
   }
 
   .hamburger {
