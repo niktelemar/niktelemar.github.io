@@ -87,6 +87,7 @@ a:is(:link, :active, :visited).menu-active {
 
   .header-name {
     max-width: 300px;
+    width: 300px;
   }
 
   .hamburger {
