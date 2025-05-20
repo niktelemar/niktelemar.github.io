@@ -33,6 +33,10 @@ h1 {
   opacity: 0;
 }
 
+.no-hover-thumbnail {
+  width: 100%;
+  height: auto;
+}
 
 
 
